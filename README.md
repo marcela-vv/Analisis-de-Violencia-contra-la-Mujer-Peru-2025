@@ -26,15 +26,19 @@ Limpieza y preparación de datos
 
 Los datos fueron procesados en Python para:
 
-eliminar valores nulos o inconsistentes,
+    - eliminar valores nulos o inconsistentes,
 
-estandarizar nombres de departamentos,
+    - estandarizar nombres de departamentos,
 
-organizar la información por año y territorio.
+    - organizar la información por año y territorio.
 
 Procesamiento y análisis
+
+
 Se agruparon las denuncias por departamento y se calculó la variación porcentual interanual, con el fin de identificar qué territorios presentan mayores cambios relativos en el número de denuncias.
 
 Análisis comunicacional
+
+
 Los resultados se interpretaron desde una perspectiva social y comunicacional, considerando que las variaciones en las denuncias pueden reflejar tanto cambios reales en la violencia como modificaciones en los niveles de denuncia, acceso institucional o visibilidad del problema.
 **5. Principalez hallazgos**
