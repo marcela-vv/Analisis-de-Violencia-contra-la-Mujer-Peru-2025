@@ -76,4 +76,4 @@ if __name__ == "__main__":
         if dataset_final is not None:
             ruta_final = os.path.join(folder_data, "DATASET_UNIFICADO_2025.csv")
             dataset_final.to_csv(ruta_final, index=False)
-            print(f"✅ ¡Trabajo terminado! Hemos unificado {len(dataset_final)} registros en {ruta_final}")
+            print(f"¡Listo! Hemos unificado {len(dataset_final)} registros en {ruta_final}")
