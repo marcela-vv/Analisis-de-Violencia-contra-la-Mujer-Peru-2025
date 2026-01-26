@@ -10,6 +10,10 @@ hola
 
 **2. Pregunta de investigación**
 
+
+¿Qué departamentos han mostrado el mayor crecimiento porcentual (aceleración) de denuncias en el último año?
+
+
 **3. Fuente de datos**
 
 **4. Metodología**
