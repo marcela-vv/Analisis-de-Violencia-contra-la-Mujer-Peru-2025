@@ -3,7 +3,11 @@ Análisis de datos y scraping de denuncias del SIDPOL (Mininter) para monitorear
 
 
 **1. Descripción del proyecto**
+
 **2. Pregunta de investigación**
+
 **3. Fuente de datos**
+
 **4. Metodología**
+
 **5. Principalez hallazgos**
