@@ -19,9 +19,11 @@ Observatorio Nacional de Seguridad Ciudadana del Ministerio del Interior
 **4. Metodología**
 
 Obtención de datos
+
 Se descargaron datos públicos del Observatorio Nacional de Seguridad Ciudadana mediante técnicas de web scraping y/o descarga directa de archivos CSV, asegurando que la información corresponda a denuncias registradas oficialmente.
 
 Limpieza y preparación de datos
+
 Los datos fueron procesados en Python para:
 
 eliminar valores nulos o inconsistentes,
