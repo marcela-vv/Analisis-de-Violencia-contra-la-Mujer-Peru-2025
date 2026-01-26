@@ -10,4 +10,4 @@ Análisis de datos y scraping de denuncias del SIDPOL (Mininter) para monitorear
 
 **4. Metodología**
 
-**5. Principalez hallazgos**
+**5. Principales hallazgos**
