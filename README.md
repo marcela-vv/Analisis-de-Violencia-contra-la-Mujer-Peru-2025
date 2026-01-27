@@ -4,6 +4,8 @@ Análisis de datos y scraping de denuncias del SIDPOL (Mininter) para monitorear
 
 **1. Descripción del proyecto**
 
+Este proyecto realiza un análisis exploratorio de datos públicos sobre denuncias de violencia contra la mujer en el Perú, con el objetivo de identificar patrones territoriales y variaciones porcentuales entre años recientes. A partir de técnicas básicas de web scraping, limpieza y análisis de datos en Python, se busca aportar una lectura comunicacional que permita comprender cómo se distribuye y evoluciona el fenómeno a nivel departamental.
+
 **2. Pregunta de investigación**
 
 
@@ -42,3 +44,5 @@ Análisis comunicacional
 
 Los resultados se interpretaron desde una perspectiva social y comunicacional, considerando que las variaciones en las denuncias pueden reflejar tanto cambios reales en la violencia como modificaciones en los niveles de denuncia, acceso institucional o visibilidad del problema.
 **5. Principalez hallazgos**
+
+
