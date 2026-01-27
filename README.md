@@ -43,6 +43,9 @@ Análisis comunicacional
 
 
 Los resultados se interpretaron desde una perspectiva social y comunicacional, considerando que las variaciones en las denuncias pueden reflejar tanto cambios reales en la violencia como modificaciones en los niveles de denuncia, acceso institucional o visibilidad del problema.
+
+
+
 **5. Principalez hallazgos**
 
 
