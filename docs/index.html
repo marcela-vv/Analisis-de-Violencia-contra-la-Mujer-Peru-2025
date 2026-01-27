@@ -1,1 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Denuncias Perú 2025</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #e74c3c;
+            --bg: #f4f7f6;
+            --text: #333;
+            --card-bg: #ffffff;
+        }
 
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #1a2980 0%, #26d0ce 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 1rem auto 0;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #555;
+            margin-top: 1.5rem;
+        }
+
+        /* Highlight Boxes */
+        .highlight-box {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #eee;
+        }
+
+        .stat-number {
+            display: block;
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Image Styling */
+        .chart-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .chart-container img {
+            max-width: 1000%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .caption {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--primary);
+            color: white;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 { font-size: 2rem; }
+            .container { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dinámica del Crimen en el Perú</h1>
+        <p>Investigación basada en datos de denuncias policiales 2024-2025</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2><i class="fas fa-search"></i> La Pregunta Principal</h2>
+            <p style="font-size: 1.2rem; font-weight: 500;">
+                ¿Qué departamentos han mostrado el mayor crecimiento porcentual (o resistencia a la baja) de denuncias en el último año?
+            </p>
+            <p>
+                Más allá del volumen absoluto, buscamos entender la <strong>aceleración</strong> y la tendencia. Mientras gran parte del país mostró descensos estadísticos, detectamos focos de resistencia donde la violencia no da tregua.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2><i class="fas fa-chart-line"></i> Hallazgos: Los Nuevos "Puntos Calientes"</h2>
+            <p>Contrario a lo esperado, el análisis de variación porcentual revela que la preocupación no está solo en Lima, sino en regiones que se niegan a bajar sus cifras.</p>
+            
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <span class="stat-number">-2.3%</span>
+                    <span class="stat-label">Ica (Resistencia Alta)</span>
+                    <p>Mientras el país caía, Ica se mantuvo prácticamente estable. Es el departamento con mayor "aceleración relativa".</p>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">-2.8%</span>
+                    <span class="stat-label">Pasco</span>
+                    <p>El segundo foco de resistencia, manteniendo sus niveles de inseguridad casi intactos frente al año anterior.</p>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">-9.4%</span>
+                    <span class="stat-label">Lima Metropolitana</span>
+                    <p>Caída de un solo dígito. A pesar de su enorme volumen, la capital mantiene una presión constante.</p>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <strong>💡 Conclusión:</strong> Mientras regiones como Puno o Moquegua reportan caídas drásticas del 30-40%, <strong>Ica y Pasco</strong> se perfilan como zonas críticas donde la curva de denuncias se resiste a descender.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><i class="fas fa-chart-pie"></i> Ranking de Volumen</h2>
+            <p>Aunque analizamos el crecimiento, es vital entender dónde se concentra la carga absoluta del delito. Lima Metropolitana abarca casi la mitad de las denuncias nacionales.</p>
+            
+            <div class="chart-container">
+                <img src="grafico_top10.png" alt="Gráfico circular mostrando Top 10 regiones con más denuncias">
+                <p class="caption">Figura 1: Distribución porcentual de denuncias por región (Top 10). Lima Metropolitana concentra el 43.1%.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><i class="fas fa-calendar-alt"></i> Temporalidad: ¿Cuándo ocurre el delito?</h2>
+            
+            <h3>¿Existe estacionalidad? Sí, el verano es violento.</h3>
+            <p>Históricamente, el primer trimestre (Enero, Febrero, Marzo) concentra sistemáticamente el mayor volumen. En 2024, estos tres meses acumularon casi el <strong>30% de la carga anual</strong>.</p>
+            
+            <h3>El "Mes Crítico" del 2025</h3>
+            <p><strong>Enero 2025</strong> fue el pico absoluto con <strong>270,367 denuncias</strong>. Este dato no solo confirma la estacionalidad, sino que fue el único mes que mantuvo niveles similares al año anterior antes del desplome estadístico en los registros posteriores.</p>
+        </div>
+
+        <div class="card" style="border-left: 5px solid #e74c3c;">
+            <h2><i class="fas fa-exclamation-triangle"></i> La Realidad del Dato: ¿Islas de Seguridad?</h2>
+            <p>¿Realmente Puno o la Selva se volvieron más seguros de la noche a la mañana con caídas del 40%?</p>
+            
+            <h3>El factor "Cuaderno Físico"</h3>
+            <p>
+                La investigación revela un problema estructural: <strong>La realidad del SIDPOL</strong>. En muchas comisarías de provincia, las denuncias se registran en cuadernos físicos y tardan meses en ser digitalizadas.
+            </p>
+            <ul>
+                <li><strong>Subregistro:</strong> Lo que vemos en la base de datos no es siempre la violencia real, sino la capacidad administrativa de la PNP para digitalizarla.</li>
+                <li><strong>Falsos Positivos:</strong> Las caídas abruptas en zonas rurales suelen indicar cuellos de botella administrativos, no necesariamente una mejora en la seguridad ciudadana.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Proyecto de Análisis de Datos de Seguridad Ciudadana - GitHub 2025</p>
+    </footer>
+
+</body>
+</html>
