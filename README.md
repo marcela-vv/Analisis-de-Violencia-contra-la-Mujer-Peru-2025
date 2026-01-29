@@ -20,11 +20,11 @@ Observatorio Nacional de Seguridad Ciudadana del Ministerio del Interior
 
 **4. Metodología**
 
-Obtención de datos
+4.1. Obtención de datos
 
 Se descargaron datos públicos del Observatorio Nacional de Seguridad Ciudadana mediante técnicas de web scraping y/o descarga directa de archivos CSV, asegurando que la información corresponda a denuncias registradas oficialmente.
 
-Limpieza y preparación de datos
+4.2. Limpieza y preparación de datos
 
 Los datos fueron procesados en Python para:
 
@@ -34,12 +34,12 @@ Los datos fueron procesados en Python para:
 
     - organizar la información por año y territorio.
 
-Procesamiento y análisis
+4.3. Procesamiento y análisis
 
 
 Se agruparon las denuncias por departamento y se calculó la variación porcentual interanual, con el fin de identificar qué territorios presentan mayores cambios relativos en el número de denuncias.
 
-Análisis comunicacional
+4.4. Análisis comunicacional
 
 
 Los resultados se interpretaron desde una perspectiva social y comunicacional, considerando que las variaciones en las denuncias pueden reflejar tanto cambios reales en la violencia como modificaciones en los niveles de denuncia, acceso institucional o visibilidad del problema.
