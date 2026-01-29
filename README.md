@@ -25,7 +25,7 @@ Observatorio Nacional de Seguridad Ciudadana del Ministerio del Interior
 
 4.1. Obtención de datos
 
-Se descargaron datos públicos del Observatorio Nacional de Seguridad Ciudadana mediante técnicas de web scraping y/o descarga directa de archivos CSV, asegurando que la información corresponda a denuncias registradas oficialmente.
+Se descargaron datos públicos del Observatorio Nacional de Seguridad Ciudadana mediante técnicas de web scraping, obteniendo los archivos individuales y unificándolos en un solo archivo, para asegurar que la información corresponda a denuncias registradas oficialmente.
 
 4.2. Limpieza y preparación de datos
 
